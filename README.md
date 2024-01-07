@@ -18,10 +18,10 @@
    git clone git@github.com:farzaneh74/SQLDatabaseChain.git
    cd SQLDatabaseChain
 2. **Set Up a PostgreSQL Database**
-3. 
-   CREATE DATABASE your_database_name;
    
-   CREATE TABLE person(  pid SERIAL             PRIMARY KEY,
+   - CREATE DATABASE your_database_name;
+   
+   - CREATE TABLE person(  pid SERIAL             PRIMARY KEY,
                               name CHARACTER VARYING,
                          givenname CHARACTER VARYING,
                         familyname CHARACTER VARYING,
