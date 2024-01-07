@@ -18,16 +18,18 @@
    git clone git@github.com:farzaneh74/SQLDatabaseChain.git
    cd SQLDatabaseChain
 2. **Set Up a PostgreSQL Database**
+3. 
    CREATE DATABASE your_database_name;
+   
    CREATE TABLE person(  pid SERIAL             PRIMARY KEY,
                               name CHARACTER VARYING,
                          givenname CHARACTER VARYING,
                         familyname CHARACTER VARYING,
                     additionalname CHARACTER VARYING,
                              email CHARACTER VARYING);
-3. **Install Dependencies**
+5. **Install Dependencies**
    pip install -r requirements.txt
 
-4. **Running the Application**
+6. **Running the Application**
    python text-to-sql-query.py
    
