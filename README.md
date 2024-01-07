@@ -1,4 +1,4 @@
-# [SQLDatabaseChain]
+# SQLDatabaseChain
 
 [SQLDatabaseChain] is a Python application that leverages Langchain to enable natural language querying of PostgreSQL databases. This tool allows users to interact with their PostgreSQL databases using simple, conversational queries, making data retrieval more intuitive and accessible.
 
