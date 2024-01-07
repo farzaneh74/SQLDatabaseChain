@@ -15,8 +15,8 @@
 1. **Clone the Repository**
 
    ```bash
-   git clone [your-repository-url]
-   cd [repository-name]
+   git clone git@github.com:farzaneh74/SQLDatabaseChain.git
+   cd SQLDatabaseChain
 2. **Set Up a PostgreSQL Database**
    CREATE DATABASE your_database_name;
    CREATE TABLE person(  pid SERIAL             PRIMARY KEY,
