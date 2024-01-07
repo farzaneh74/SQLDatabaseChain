@@ -28,8 +28,10 @@
                     additionalname CHARACTER VARYING,
                              email CHARACTER VARYING);
 5. **Install Dependencies**
+   
    pip install -r requirements.txt
 
-6. **Running the Application**
+7. **Running the Application**
+   
    python text-to-sql-query.py
    
